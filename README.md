@@ -68,3 +68,24 @@ make
 After running that you will see output. First line - `3`(amount of pairs).\
 The other lines - edges in those pairs.
 
+Or another example:
+```shell
+mkdir build 
+cd build
+cmake ..
+make
+./algorithms_hw3
+10
+4 9
+9
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+```
+
