@@ -22,7 +22,7 @@ requirement. It looks like:
 So, when one runs the program, one should write that type of input.
 
 Then program processes given input and calls `connect(...)` function.
-The unction takes nodes amount, vector with booleans(if the node is forbidden or not)
+The function takes nodes amount, vector with booleans(if the node is forbidden or not)
 and all the edges.
 
 `connect(...)` function initializes S and T nodes for our maxflow algorithm and creates
@@ -89,3 +89,4 @@ make
 9 10
 ```
 
+P.S. If output node is not connected with any another node, output will look like `10 -- -1`
